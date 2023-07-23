@@ -4,7 +4,7 @@
 /**
  * my_charprint - a function that print characters.
  * @count: counting the character. 
- * Return: nothing 0.
+ * Return: size of nbytes of character.
  */
 int my_charprint(va_list count)
 {

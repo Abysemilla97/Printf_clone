@@ -2,6 +2,9 @@
 #include <stdio.h>
 
 /**
+ * my_stringprint - a function that print string.
+ * @count: number of count.
+ * Return: size of nbytes of character.
  */
 int my_stringprint(va_list count)
 {

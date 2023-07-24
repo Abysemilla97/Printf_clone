@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include "main.h"
 
 int print_integer(int value);
 void print_buffer(char buffer[], int *buff_ind);
@@ -87,7 +88,7 @@ int print_integer(int value)
 
 	if (value < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		printed++;
 		value = -value;
 	}
@@ -101,7 +102,7 @@ int print_integer(int value)
 
 	for (j = i - 1; j >= 0; j--)
 	{
-		putchar(buffer[j]);
+		_putchar(buffer[j]);
 	}
 	return printed;
 }
@@ -114,7 +115,7 @@ void print_buffer(char buffer[], int *buff_ind)
 	{
 		for (i = 0; i < *buff_ind; i++)
 		{
-			putchar(buffer[i]);
+			_putchar(buffer[i]);
 		}
 	}
 	*buff_ind = 0;

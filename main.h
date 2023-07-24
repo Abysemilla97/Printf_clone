@@ -1,6 +1,7 @@
 #ifndef MAIN_H
-#ifdef MAIN_H
+#define MAIN_H
 
-int my_write_abg(char c)
+int _printf(const char *format, ...);
 
 #endif
+
